@@ -72,3 +72,15 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
 ```
 
 7. Set Allowed Hosts and Debug For Production
+
+# Installation
+
+```md
+pip install python-dotenv whitenoise gunicorn
+```
+
+# Start the Server
+
+```md
+python manage.py runserver
+```
